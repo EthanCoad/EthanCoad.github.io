@@ -1,33 +1,57 @@
 body    {
     background-color: #0B0C10;
     color: #c5c6c7;
-}
-
-li a {
-    display: block;
-    color: #c5c6c7;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
+    background-size: 2;
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
     overflow: hidden;
     background-color: #1f2833;
 }
+
+nav li{
+font-size: xx-large;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #66fcf1;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 li a:hover {
-    background-color: #111;
+        background-color: #111;
+}
+
+h1 {
+    color: #66fcf1;
+    font-size: 350%;
+}
+
+.bioimg {
+    float : left;
+    padding-right: 45px;
+ }
+
+p {
+    font-size: 24px;
 }
 
  tr, th {
     color:  #c5c6c7;
     border: 1px solid  #c5c6c7;
+    
+ }
+ tr {
+    font-size: 16px;
  }
 
-nav li{
-    float: left;
-    list-style-type: none;
+blockquote {
+    font-size: 50px;
+
 }
